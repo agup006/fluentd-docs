@@ -44,7 +44,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     raindrops (0.17.0)
-    rake (12.0.0)
+    rake (13.0.1)
     rdiscount (2.2.0.1)
     rest-client (1.2.0)
       mime-types (>= 1.16)
@@ -88,7 +88,7 @@ DEPENDENCIES
   newrelic_rpm (~> 3.4.1)
   rack-cache
   rack-codehighlighter
-  rake
+  rake (>= 12.3.3)
   rdiscount (~> 2.2.0)
   rest-client (= 1.2.0)
   sanitize
@@ -104,4 +104,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.17.3
