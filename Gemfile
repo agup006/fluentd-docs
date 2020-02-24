@@ -29,7 +29,7 @@ gem 'airbrake', '~> 3.1.5'
 
 # Dev
 group :development do
-  gem 'rake'
+  gem 'rake', '>= 12.3.3'
   gem 'shotgun', '~> 0.9'
 end
 
