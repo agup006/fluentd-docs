@@ -36,5 +36,5 @@ end
 # Production
 group :production do
   gem 'rack-cache'
-  gem 'dalli', '~> 2.1.0'
+  gem 'dalli', '~> 3.2.3'
 end
