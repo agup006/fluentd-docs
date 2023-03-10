@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # https://devcenter.heroku.com/articles/ruby-versions
 ruby '2.4.0'
 
-gem 'sinatra', '1.3.6'
+gem 'sinatra', '2.0.0'
 gem 'sinatra-assetpack', '0.3.5', :require => 'sinatra/assetpack'
 gem 'rdiscount', '~> 2.2.0'
 gem 'rest-client', '1.2.0'
@@ -30,7 +30,7 @@ gem 'airbrake', '~> 3.1.5'
 # Dev
 group :development do
   gem 'rake'
-  gem 'shotgun', '~> 0.9'
+  gem 'shotgun', '~> 0.9', '>= 0.9.2'
 end
 
 # Production
