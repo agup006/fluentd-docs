@@ -11,7 +11,7 @@ gem 'sass'
 gem 'haml'
 gem 'coderay'
 gem 'rack-codehighlighter'
-gem 'sanitize'
+gem 'sanitize', '>= 7.0.0'
 gem 'jemalloc', '~> 0.1.8'
 gem 'minitest'
 
